@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Profile from './components/Profile/Profile'
+
+const Root = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route exact path='/' component={App} />
+      <Route exact path='/profile' component={Profile} />
+  
+    </Switch>
+  </BrowserRouter>
+)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 );
