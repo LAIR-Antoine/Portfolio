@@ -39,7 +39,7 @@ input{
 
 .overlay nav {
 	text-align: left;
-    margin-left: 75px;
+    margin-left: 25px;
 	position: relative;
 	top: 50%;
 	height: 60%;
@@ -100,7 +100,7 @@ input{
 }
 
 .overlay-hugeinc nav ul {
-	opacity: 0.4;
+	opacity: 1;
 	-webkit-transform: translateY(-25%) rotateX(35deg);
 	transform: translateY(-25%) rotateX(35deg);
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
@@ -144,4 +144,10 @@ span {
 .icon-links:first-child {
     display: inline-block !important;
     padding-left: 0px;
+}
+
+@media screen and (min-width: 400px) {
+    .overlay nav {
+        margin-left: 75px;
+    }
 }

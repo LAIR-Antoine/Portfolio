@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Profile.css';
+import Navigation from '../Navigation/Navigation'
 
 class Profile extends Component {
 
@@ -7,16 +8,8 @@ class Profile extends Component {
     return (
       <div className="Profile">
 
-        <svg className="burger-menu" width="125" height="125" viewBox="0 0 180 180">
-          <g id="Rectangle_1" transform="translate(86.005) rotate(45)">
-            <rect x="5.93" y="-0.12" transform="matrix(2.535182e-06 1 -1 2.535182e-06 127.4374 -6.0445)" className="st0" width="121.63" height="121.63"/>
-            <rect x="8.43" y="2.38" transform="matrix(2.535182e-06 1 -1 2.535182e-06 127.4374 -6.0445)" className="st1" width="116.63" height="116.63"/>
-          </g>
-          <line id="Ligne_1" className="st2" x1="44.56" y1="90.01" x2="135.79" y2="90.01"/>
-          <line id="Ligne_2" className="st2" x1="64.33" y1="67.2" x2="117.54" y2="67.2"/>
-          <line id="Ligne_3" className="st2" x1="64.33" y1="112.81" x2="117.54" y2="112.81"/>
-        </svg>
-
+        <Navigation  />
+        
         <h1>MON <span>PROFIL</span></h1>
 
         <div className="LineOne">
