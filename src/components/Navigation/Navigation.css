@@ -5,8 +5,8 @@ input{
 
 .lower label{
     cursor:pointer;
-    top: 3vh;
-    right: 3vh;
+    top: 0;
+    right: 0;
     height: 100px;
     width: 100px;
 	position: absolute;
@@ -27,8 +27,8 @@ input{
 }
 
 .overlay label{
-	top: 3vh;
-    right: 3vh;
+	top: 0;
+    right: 0;
     height: 100px;
     width: 100px;
 	position: absolute;
@@ -117,7 +117,7 @@ input{
 	-webkit-transform: translateY(25%) rotateX(-35deg);
 	transform: translateY(25%) rotateX(-35deg);
 }
-span {
+.span-menu {
     font-weight: 700;
     color: #3F3CA6 !important;
     display: inline-block;
@@ -130,8 +130,8 @@ span {
 .st51{fill:none;stroke:#CCCBE2;stroke-width:5;stroke-linecap:round;}
 .burger-menu {
     position: absolute;
-    top: 3vh;
-    right: 3vh;
+    top: 3vh !important;
+    right: 3vh !important;
     height: 100px;
     width: 100px;
 }
