@@ -10,6 +10,7 @@ import Competence from './components/Competence/Competence'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
 import Creation from './components/Creation/Creation'
+import Navigation from './components/Navigation/Navigation';
 
 const Root = () => (
   <BrowserRouter>
@@ -20,6 +21,8 @@ const Root = () => (
       <Route exact path='/projects' component={Projects} />
       <Route exact path='/experience' component={Experience} />
       <Route exact path='/creation' component={Creation} />
+
+      <Route exact path='/test' component={Navigation} />
    </Switch>
   </BrowserRouter>
 )

@@ -47,8 +47,9 @@ span {
 }
 i {
     font-size: 50px;
-    color: #3F3CA6 !important;
+    color: #3F3CA6;
     padding-left: 10px; 
+    overflow: hidden;
 }
 .SocialLinks {
     position: absolute;  
@@ -68,6 +69,8 @@ i {
 .st3{fill:none;}
 .st4{fill:none;stroke:#6A6F93;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
 .st5{fill:none;stroke:#3F3CA6;stroke-width:5;stroke-linecap:round;}
+0
+
 
 @media screen and (min-width: 426px) {
     .LineOne {

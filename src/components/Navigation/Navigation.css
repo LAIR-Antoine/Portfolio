@@ -1,16 +1,147 @@
-.navbar {
-    position: absolute;
-    top: -100px;
-    right: -100px;
-    width: 500px;
-    height: 500px;
-    background-color: #6A6F93;
-    border: #3F3CA6 solid 10px;
-    transform: rotate(45deg);
-    border-radius: 5px;
+
+input{
+  display:none;
 }
-.Navigation {
+
+.lower label{
+    cursor:pointer;
+    top: 3vh;
+    right: 3vh;
+    height: 100px;
+    width: 100px;
+	position: absolute;
+  }
+
+.lower label:hover{
+  cursor:pointer;
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: #6A6F93;
+    z-index: 100;
+}
+
+.overlay label{
+	top: 3vh;
+    right: 3vh;
+    height: 100px;
+    width: 100px;
+	position: absolute;
+	/* background: url('https://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png'); */
+	z-index: 100;
+  cursor:pointer;
+}
+
+.overlay nav {
+	text-align: left;
+    margin-left: 75px;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	font-size: 30px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 70%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 10%;
+	height: calc(100% / 5);
+	min-height: 24px;
+    font-weight: 300;
+}
+
+.overlay ul li a {
+	font-weight: 300 !important;
+	display: block;
+	color: #CCCBE2;
+  text-decoration:none;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+    font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+/* .overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #000 !important;
+} */
+
+.lower~.overlay-hugeinc{
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+#op:checked~.overlay-hugeinc{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.overlay-hugeinc nav {
+	-moz-perspective: 300px;
+}
+
+.overlay-hugeinc nav ul {
+	opacity: 0.4;
+	-webkit-transform: translateY(-25%) rotateX(35deg);
+	transform: translateY(-25%) rotateX(35deg);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+#op:checked~.overlay-hugeinc nav ul {
+	opacity: 1;
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+}
+
+#op:not(:checked)~.overlay-hugeinc nav ul {
+	-webkit-transform: translateY(25%) rotateX(-35deg);
+	transform: translateY(25%) rotateX(-35deg);
+}
+span {
+    font-weight: 700;
+    color: #3F3CA6 !important;
+    display: inline-block;
+}
+.st01{fill:none;}
+.st11{fill:none;stroke:#CCCBE2;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+.st21{fill:none;stroke:#CCCBE2;stroke-width:5;stroke-linecap:round;}
+.st31{fill:none;}
+.st41{fill:none;stroke:#CCCBE2;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+.st51{fill:none;stroke:#CCCBE2;stroke-width:5;stroke-linecap:round;}
+.burger-menu {
     position: absolute;
-    height: 100vh;
-    width: 100% !important;
+    top: 3vh;
+    right: 3vh;
+    height: 100px;
+    width: 100px;
+}
+.icon-links {
+    display: inline-block !important;
+    padding-left: 10px;
+    color: #3F3CA6;
+    font-size: 50px;
+}
+.icon-links:first-child {
+    display: inline-block !important;
+    padding-left: 0px;
 }
