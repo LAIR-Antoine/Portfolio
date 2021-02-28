@@ -66,6 +66,11 @@
     font-weight: 600;
     display: inline-block;
 }
+span {
+    font-weight: 700;
+    color: #3F3CA6 !important;
+    display: block;
+}
 
 @media screen and (max-width: 350px) {
     .ProfileContent {

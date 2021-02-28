@@ -36,13 +36,13 @@ class Navigation extends Component {
               </label>
               <nav>
                 <ul>
-                  <li><a href="/profile">Mon <span>profil</span></a></li>
-                  <li><a href="/skills">Mes <span>compétences</span></a></li>
-                  <li><a href="/projects">Mes <span>projets</span></a></li>
-                  <li><a href="/experience">Mes <span>expériences</span></a></li>
-                  <li><a href="/creation">Mes <span>créations</span></a></li>
-                  <li><a href="/">Mon <span>cv</span></a></li>
-                  <li><a href="/">Me <span>contacter</span></a></li>
+                  <li><a href="/profile">Mon <span className="span-menu">profil</span></a></li>
+                  <li><a href="/skills">Mes <span className="span-menu">compétences</span></a></li>
+                  <li><a href="/projects">Mes <span className="span-menu">projets</span></a></li>
+                  <li><a href="/experience">Mes <span className="span-menu">expériences</span></a></li>
+                  <li><a href="/creation">Mes <span className="span-menu">créations</span></a></li>
+                  <li><a href="/">Mon <span className="span-menu">cv</span></a></li>
+                  <li><a href="/">Me <span className="span-menu">contacter</span></a></li>
                   <li>
                     <a className="icon-links" href="/"><i className="fas fa-home"></i></a>
                     <a className="icon-links" href="mailto:lair.antoine89@orange.fr" target="_blank" rel="noopener noreferrer" alt="Email"><i className='fas fa-envelope'></i></a>
