@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './HomeProfile.css';
+import Navigation from '../Navigation/Navigation'
 
 class HomeProfile extends Component {
+
+
 
   render () {
     return (
       <div className="HomeProfile">
+
+        {/* <Navigation /> */}
 
         <svg className="burger-menu" width="125" height="125" viewBox="0 0 180 180">
           <g id="Rectangle_1" transform="translate(86.005) rotate(45)">

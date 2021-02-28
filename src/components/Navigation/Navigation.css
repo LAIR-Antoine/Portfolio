@@ -1,0 +1,16 @@
+.navbar {
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    background-color: #6A6F93;
+    border: #3F3CA6 solid 10px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+}
+.Navigation {
+    position: absolute;
+    height: 100vh;
+    width: 100% !important;
+}

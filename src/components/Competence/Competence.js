@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Profile.css';
+import './Competence.css';
 
-class Profile extends Component {
+class Competence extends Component {
 
   render () {
     return (
-      <div className="Profile">
+      <div className="Competence">
 
         <svg className="burger-menu" width="125" height="125" viewBox="0 0 180 180">
           <g id="Rectangle_1" transform="translate(86.005) rotate(45)">
@@ -17,21 +17,21 @@ class Profile extends Component {
           <line id="Ligne_3" className="st2" x1="64.33" y1="112.81" x2="117.54" y2="112.81"/>
         </svg>
 
-        <h1>MON <span>PROFIL</span></h1>
+        <h1>MES <span>COMPéTENCES</span></h1>
 
         <div className="LineOne">
           {null}
         </div>
-        <div className="ProfileContent">
-            <p className="justify">Bonjour à tous !<br /> Je suis Antoine LAIR, un <span className="linkcolor">étudiant</span> de 20 ans.</p>
-            <p className="justify">Depuis ma terminale, je fais du <span className="linkcolor">développement web</span>. En 2020, j'ai commencé à me diversifier en découvrant le <span className="linkcolor">graphisme</span> et le <span className="linkcolor">montage vidéo</span>.</p>
-            <p className="justify">J'aime bien prendre des <span className="linkcolor">photos</span> quand j'ai du temps libre.</p>
-            <p className="justify">Je fais du <span className="linkcolor">triathlon</span> depuis 8 ans et je participe à des <span className="linkcolor">postes de secours</span> depuis 1 an.</p>
+        <div className="CompetenceContent">
+            <p className="justify">Au cours de ma formation, j'ai appris de nombreuses choses dans différents domaines.</p>
+            <p className="justify">Sur le <span className="linkcolor">développement web</span>, je sais utiliser du <span className="linkcolor">Javascript</span> comme sur ce site, avec <span className="linkcolor">React</span> principalement, mais aussi du <span className="linkcolor">HTML</span> et du <span className="linkcolor">CSS</span>.</p>
+            <p className="justify">Côté serveur, j'ai appris à me servir de <span className="linkcolor">Linux (Debian)</span>, <span className="linkcolor">Docker</span> ou encore <span className="linkcolor">Kubernetes</span>.</p>
+            <p className="justify">J'apprends également à me servir du <span className="linkcolor">langage C</span> notamment sur <span className="linkcolor">Arduino</span>, et à me servir de <span className="linkcolor">Raspberry Pi</span>.</p>
             <p className="See-more">Cliquez ici pour <span className="bold">en savoir plus</span> ou passer à la suite !</p>
         </div>
 
 
-        <a href="/skills">
+        <a href="/projects">
           <svg className="suite-button-bottom" viewBox="0 0 180 180">
             <g id="Rectangle_1" transform="translate(86.005) rotate(45)">
               <rect x="5.93" y="-0.12" transform="matrix(2.535182e-06 1 -1 2.535182e-06 127.4374 -6.0445)" className="st3" width="121.63" height="121.63"/>
@@ -49,4 +49,4 @@ class Profile extends Component {
   }
 }
 
-export default Profile;
+export default Competence;
