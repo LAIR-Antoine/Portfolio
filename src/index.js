@@ -6,18 +6,23 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Profile from './components/Profile/Profile'
+import Competence from './components/Competence/Competence'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
 import Creation from './components/Creation/Creation'
+import Navigation from './components/Navigation/Navigation';
 
 const Root = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path='/' component={App} />
       <Route exact path='/profile' component={Profile} />
+      <Route exact path='/skills' component={Competence} />
       <Route exact path='/projects' component={Projects} />
       <Route exact path='/experience' component={Experience} />
       <Route exact path='/creation' component={Creation} />
+
+      <Route exact path='/test' component={Navigation} />
    </Switch>
   </BrowserRouter>
 )
