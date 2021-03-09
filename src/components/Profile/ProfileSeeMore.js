@@ -32,6 +32,7 @@ class ProfileSeeMore extends Component {
             <p>En Terminale, je commence à m'intéresser au développement web suite à des vidéos du Youtubeur Micode.</p>
             <p>J'apprends d'abord le HTML/CSS que je consoliderais lors de mes deux années à l'UTT (UE MM01 notamment).</p>
             <p>En 2020, je rejoint l'UTT Netgroup, l'association d'informatique de l'UTT où je commence le Javascript.</p>
+            <p>Au semestre d'Automne 2020, je réalise un site web complet avec son API et sa base de donnée.</p>
             
         </div>
   </Carousel.Item>

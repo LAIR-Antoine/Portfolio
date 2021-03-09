@@ -25,7 +25,7 @@ class Creation extends Component {
         <div className="SocialLinks">
           {/* <a href="https://www.facebook.com/antoine.lair.3/" target="_blank" rel="noopener noreferrer" alt="Facebook"><i className="fab fa-facebook"></i></a>
           <a href="https://www.instagram.com/antoine.lair89/" target="_blank" rel="noopener noreferrer" alt="Instagram"><i className="fab fa-instagram"></i></a> */}
-          <a href="mailto:lair.antoine89@orange.fr" target="_blank" rel="noopener noreferrer" alt="Email"><i class='fas fa-envelope'></i></a>
+          <a href="mailto:lair.antoine89@orange.fr" target="_blank" rel="noopener noreferrer" alt="Email"><i className='fas fa-envelope'></i></a>
           <a href="https://github.com/LAIR-Antoine" target="_blank" rel="noopener noreferrer" alt="Github"><i className="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/lairantoine89/" target="_blank" rel="noopener noreferrer" alt="Linkedin"><i className="fab fa-linkedin"></i></a>
         </div>        
