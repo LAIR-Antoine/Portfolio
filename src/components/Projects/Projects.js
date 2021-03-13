@@ -20,7 +20,9 @@ class Projects extends Component {
 <br /><span className="linkcolor">eve.lairantoine.fr</span></p>
             <p className="justify">Depuis <span className="linkcolor">Septembre 2020</span>, je refais le site de mon <span className="linkcolor">club de triathlon</span>. Une première version est terminée et en ligne sur :
             <br /><span className="linkcolor">sens-triathlon.com</span></p>
-            <p className="See-more">Cliquez ici pour <span className="bold">en savoir plus</span> ou passer à la suite !</p>
+            <p className="See-more">Cliquez ici pour <span className="bold">
+              <a href="/projects/see-more" className="see-more-link">en savoir plus</a>
+              </span> ou passer à la suite !</p>
         </div>
 
 

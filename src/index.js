@@ -12,6 +12,8 @@ import Experience from './components/Experience/Experience'
 import Creation from './components/Creation/Creation'
 import ProfileSeeMore from './components/Profile/ProfileSeeMore';
 import CompetenceSeeMore from './components/Competence/CompetenceSeeMore';
+import ProjectsSeeMore from './components/Projects/ProjectsSeeMore';
+import CreationSeeMore from './components/Creation/CreationSeeMore';
 
 const Root = () => (
   <BrowserRouter>
@@ -19,12 +21,14 @@ const Root = () => (
       <Route exact path='/' component={App} />
       <Route exact path='/profile' component={Profile} />
       <Route exact path='/profile/see-more' component={ProfileSeeMore} />
-      <Route exact path='/skills/see-more' component={CompetenceSeeMore} />
       <Route exact path='/skills' component={Competence} />
+      <Route exact path='/skills/see-more' component={CompetenceSeeMore} />
       <Route exact path='/projects' component={Projects} />
+      <Route exact path='/projects/see-more' component={ProjectsSeeMore} />
       <Route exact path='/experience' component={Experience} />
+      <Route exact path='/experience/see-more' component={CompetenceSeeMore} />
       <Route exact path='/creation' component={Creation} />
-
+      <Route exact path='/creation/see-more' component={CreationSeeMore} />
       
    </Switch>
   </BrowserRouter>
