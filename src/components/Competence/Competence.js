@@ -17,10 +17,12 @@ class Competence extends Component {
         </div>
         <div className="CompetenceContent">
             <p className="justify">Au cours de ma formation, j'ai appris de nombreuses choses dans différents domaines.</p>
-            <p className="justify">Sur le <span className="linkcolor">développement web</span>, je sais utiliser du <span className="linkcolor">Javascript</span> comme sur ce site, avec <span className="linkcolor">React</span> principalement, mais aussi du <span className="linkcolor">HTML</span> et du <span className="linkcolor">CSS</span>.</p>
+            <p className="justify">Sur le <span className="linkcolor">développement web</span>, je sais utiliser du <span className="linkcolor">Javascript</span> comme sur ce site en <span className="linkcolor">React</span>, mais aussi du <span className="linkcolor">HTML</span> et du <span className="linkcolor">CSS.</span></p>
             <p className="justify">Côté serveur, j'ai appris à me servir de <span className="linkcolor">Linux (Debian)</span>, <span className="linkcolor">Docker</span> ou encore <span className="linkcolor">Kubernetes</span>.</p>
             <p className="justify">J'apprends également à me servir du <span className="linkcolor">langage C</span> notamment sur <span className="linkcolor">Arduino</span>, et à me servir de <span className="linkcolor">Raspberry Pi</span>.</p>
-            <p className="See-more">Cliquez ici pour <span className="bold">en savoir plus</span> ou passer à la suite !</p>
+            <p className="See-more">Cliquez ici pour <span className="bold">
+              <a href="/skills/see-more" className="see-more-link">en savoir plus</a>
+              </span> ou passer à la suite !</p>
         </div>
 
 

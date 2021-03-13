@@ -19,7 +19,9 @@ class Experience extends Component {
             <p className="justify">Dans le cadre de mes études à l'UTT, j'ai fait un <span className="linkcolor">stage ouvrier</span> de <span className="linkcolor">3 semaines</span> sur les mois de Janvier et Février <span className="linkcolor">2021</span> chez <span className="linkcolor">Norauto</span> dans le centre de <span className="linkcolor">Gramont</span> (Toulouse).</p>
             <p className="justify">Ce <span className="linkcolor">stage</span> m'a permis d'avoir une <span className="linkcolor">première expérience</span> dans le monde du <span className="linkcolor">travail</span>.</p>
             <p className="justify">J'ai aussi appris beaucoup de choses sur l'<span className="linkcolor">entretien</span> et la <span className="linkcolor">réparation</span> de <span className="linkcolor">voitures</span>.</p>
-            <p className="See-more">Cliquez ici pour <span className="bold">en savoir plus</span> ou passer à la suite !</p>
+            <p className="See-more">Cliquez ici pour <span className="bold">
+              <a href="/experience/see-more" className="see-more-link">en savoir plus</a>
+              </span> ou passer à la suite !</p>
         </div>
 
 

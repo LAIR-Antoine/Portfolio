@@ -9,8 +9,8 @@ class Navigation extends Component {
     return (
       <div className="Navigation">
         <input type="checkbox" id="op"></input>
-        <div class="lower">
-          <label for="op">
+        <div className="lower">
+          <label htmlFor="op">
           <svg className="burger-menu" width="125" height="125" viewBox="0 0 180 180">
           <g id="Rectangle_1" transform="translate(86.005) rotate(45)">
             <rect x="5.93" y="-0.12" transform="matrix(2.535182e-06 1 -1 2.535182e-06 127.4374 -6.0445)" className="st0" width="121.63" height="121.63"/>
@@ -22,8 +22,8 @@ class Navigation extends Component {
         </svg>
           </label>
         </div>
-        <div class="overlay overlay-hugeinc">
-              <label for="op">
+        <div className="overlay overlay-hugeinc">
+              <label htmlFor="op">
               <svg className="burger-menu" width="125" height="125" viewBox="0 0 180 180">
           <g id="Rectangle_1" transform="translate(86.005) rotate(45)">
             <rect x="5.93" y="-0.12" transform="matrix(2.535182e-06 1 -1 2.535182e-06 127.4374 -6.0445)" className="st01" width="121.63" height="121.63"/>
