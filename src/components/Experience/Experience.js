@@ -20,7 +20,7 @@ class Experience extends Component {
             <p className="justify">Ce <span className="linkcolor">stage</span> m'a permis d'avoir une <span className="linkcolor">première expérience</span> dans le monde du <span className="linkcolor">travail</span>.</p>
             <p className="justify">J'ai aussi appris beaucoup de choses sur l'<span className="linkcolor">entretien</span> et la <span className="linkcolor">réparation</span> de <span className="linkcolor">voitures</span>.</p>
             <p className="See-more">Cliquez ici pour <span className="bold">
-              <a href="/skills/see-more" className="see-more-link">en savoir plus</a>
+              <a href="/experience/see-more" className="see-more-link">en savoir plus</a>
               </span> ou passer à la suite !</p>
         </div>
 

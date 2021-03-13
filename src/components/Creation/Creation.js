@@ -19,7 +19,9 @@ class Creation extends Component {
             <p className="justify">Depuis mon enfance, j'ai fait pas mal de <span className="linkcolor">photos.</span> J'aime beaucoup les <span className="linkcolor">filets</span> sur les <span className="linkcolor">courses automobiles</span> mais aussi les <span className="linkcolor">paysages</span> et l'<span className="linkcolor">animalier</span>. Vous les retrouverez dans la <span className="linkcolor">galerie</span>.</p>
             <p className="justify">Début 2021, j'ai réalisé un <span className="linkcolor">montage vidéo</span> pour mon <span className="linkcolor">club de triathlon</span> pour un concours de la ville de <span className="linkcolor">Sens</span> sur le <span className="linkcolor">tri sélectif</span>. La vidéo est accessible <span className="linkcolor">ici</span>.</p>
             <p className="justify">Je fais aussi mes débuts dans le <span className="linkcolor">graphisme</span> et mes <span className="linkcolor">créations</span> sont visibles <span className="linkcolor">ici</span>.</p>
-            <p className="See-more">Cliquez ici pour <span className="bold">en savoir plus</span>. <br /> Merci de votre visite !</p>
+            <p className="See-more">Cliquez ici pour <span className="bold">
+              <a href="/creation/see-more" className="see-more-link">en savoir plus</a>
+              </span>. <br /> Merci de votre visite !</p>
         </div>
 
         <div className="SocialLinks">

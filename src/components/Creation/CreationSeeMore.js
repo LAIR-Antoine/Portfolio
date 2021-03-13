@@ -13,80 +13,42 @@ class CreationSeeMore extends Component {
 
         <Navigation  />
         
-        <a href="/skills">
+        <a href="/creation">
         <h2><i className="fas fa-arrow-circle-left"></i>Retour</h2>
         </a>
         <div className="CarouselDiv">
         <Carousel>
-  <Carousel.Item interval={10000}>
-        <div className="CarouselText">
-            <h3>Le développement web</h3>
-            <p><i className="fab fa-js small-icon"></i>  Javascript en général</p>
-            <p><i className="fab fa-react small-icon"></i>  React pour le front</p>
-            <p><i className="fab fa-node small-icon"></i>  Node.js pour les API</p>
-            <p><i className="fab fa-html5 small-icon"></i>  HTML depuis la terminale</p>
-            <p><i className="fab fa-css3 small-icon"></i>  CSS pour le style</p>
-            <p><i className="fas fa-database small-icon"></i>  MariaDB pour les bases de données</p>
-            <p><i className="fab fa-bootstrap small-icon"></i>  Bootstrap pour le style de certains composants</p>
-            
-        </div>
-  </Carousel.Item>
-  <Carousel.Item interval={5000}>
-  <div className="CarouselText">
-            <h3>Le multimédia</h3>            
-            <p><i class="fas fa-video small-icon"></i> Enregistrement de jeu ou écran sur OBS</p>
-            <p><i class="fas fa-film small-icon"></i> Montage sur Adobe Premiere Pro</p>
-            <p><i class="fas fa-camera small-icon"></i> Technique de base de photographie</p>
-            <p><i class="fas fa-images small-icon"></i> Création graphique sur Adobe Illustrator</p>
-            <p><i class="fas fa-code small-icon"></i> Maquette web sur Adobe XD ou Figma</p>
-  </div>
-  </Carousel.Item>  
-  <Carousel.Item interval={10000}>
-  <div className="CarouselText">
-            <h3>Le réseau</h3>
-            <p><i class="fab fa-linux small-icon"></i>  Mon ordinateur est un dual-boot Windows et Debian (Linux)</p>
-            <p><i class="fas fa-globe small-icon"></i>  Gestion DNS et nom de domaine (Cloudflare, OVH...)</p>
-            <p><i class="fab fa-docker small-icon"></i>  Utilisation de docker pour mettre en ligne mes projets web</p>
-            <p><i class="fas fa-upload small-icon"></i>  Mise en place et administration d'un VPS avec des applications et du monitoring</p>
-            <p><i class="fas fa-server small-icon"></i> Découverte et utilisation de Kubernetes et Openshift</p>
-            
-        </div>
-  </Carousel.Item>
+            <Carousel.Item interval={10000}>
+                <div className="CarouselText">
+                    <h3>Montage pour Sens Triathlon</h3>
+                    <p>Dans le cadre d'un concours sur le thème du recyclage à Sens, j'ai réalisé le montage vidéo pour le club de Sens Triathlon à partir d'une vidéo filmés au téléphone.</p>
+                    <p>J'ai monté la vidéo sur Adobe Première Pro, c'était ma première utilisation du logiciel pour une vidéo complète.</p>
+                    <br />
+                    <p>Le projet est accessible sur ce lien :</p>
+                    <a href="https://youtu.be/k8nRW6KGtuY" className="see-more-link">
+                        <p><i className="fab fa-youtube small-icon"></i>  Vidéo YouTube</p>
+                    </a>
+                    <a href="https://www.ville-sens.fr/concours-video/35/" className="see-more-link">
+                        <p><i className="fas fa-globe small-icon"></i>  Lien du concours (jusqu'au 1er avril)</p>
+                    </a>
+                </div>
+            </Carousel.Item>
 
-  {/* <Carousel.Item interval={5000}>
-  <div className="CarouselText">
-            <h3></h3>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </div>
-  </Carousel.Item> */}
-  <Carousel.Item interval={5000}>
-  <div className="CarouselText">
-            <h3>La programmation</h3>
-            <p><i class="fab fa-github small-icon"></i> Collaboration sur certains projets et déploiement</p>
-            <p><i class="fab fa-discord small-icon"></i> Création de bot Discord en Javascript</p>
-            <p><i class="fas fa-terminal small-icon"></i> Ligne de commande et script en bash</p>            
-            <p><i class="fas fa-code small-icon"></i> Langage C/C++ appris en cours à l'UTT</p>           
-            <p><i class="fas fa-microchip small-icon"></i> Arduino (en cours ce semestre)</p>
-            <p><i class="fab fa-raspberry-pi small-icon"></i> Raspberry (en cours ce semestre)</p>          
-            
-
-        </div>
-  </Carousel.Item>
-  {/* <Carousel.Item interval={5000}>
-
-  <div className="CarouselText">
-            <h3>Le secourisme</h3>
-            <p>En février 2018, j'obtiens mon PSE1 au cours d'une formation au BNSSA.</p>
-            <p>A mon arrivée à l'UTT en septembre 2019, je rejoins Sec'UTT, une association de secourisme étudiante.</p>
-            <p>Je participe à plusieurs postes de secours avec eux, aussi bien sur des matchs de foot que des soirées... </p>
-            <p>Je passe ensuite mon PSE2 avec eux en février 2020.</p>
-        </div>
-  </Carousel.Item> */}
-</Carousel></div>
-      </div>
+            <Carousel.Item interval={5000}>
+                <div className="CarouselText">
+                    <h3>Apprentissage du montage</h3>   
+                    <p>Durant mon dernier semestre à l'UTT en Printemps 2021, j'ai rejoins l'association Média UTT.</p>
+                    <p>Ce montage a été réalisé suite à une de leur formation sur le logiciel Adobe Première Pro. Les ressources vidéos étaient fourni, le but était de faire le meilleur montage possible avec ces paysages.</p>
+                    <br />    
+                    <p>Le projet est accessible sur ce lien :</p>
+                    <a href="https://youtu.be/bwBom0uBYrE" className="see-more-link">
+                        <p><i className="fab fa-youtube small-icon"></i>  Vidéo YouTube</p>
+                    </a>
+                </div>
+            </Carousel.Item>    
+        </Carousel>
+    </div>
+    </div>
 
     );
   }
