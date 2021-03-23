@@ -41,7 +41,7 @@ class Navigation extends Component {
                   <li><a href="/projects">Mes <span className="span-menu">projets</span></a></li>
                   <li><a href="/experience">Mes <span className="span-menu">expériences</span></a></li>
                   <li><a href="/creation">Mes <span className="span-menu">créations</span></a></li>
-                  <li><a href="/">Mon <span className="span-menu">cv</span></a></li>
+                  {/* <li><a href="/">Mon <span className="span-menu">cv</span></a></li> */}
                   <li><a href="/">Me <span className="span-menu">contacter</span></a></li>
                   <li>
                     <a className="icon-links" href="/"><i className="fas fa-home"></i></a>

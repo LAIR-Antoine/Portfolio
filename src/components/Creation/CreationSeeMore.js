@@ -25,10 +25,10 @@ class CreationSeeMore extends Component {
                     <p>J'ai monté la vidéo sur Adobe Première Pro, c'était ma première utilisation du logiciel pour une vidéo complète.</p>
                     <br />
                     <p>Le projet est accessible sur ce lien :</p>
-                    <a href="https://youtu.be/k8nRW6KGtuY" className="see-more-link">
+                    <a href="https://youtu.be/k8nRW6KGtuY" target="_blank" rel="noreferrer" className="see-more-link">
                         <p><i className="fab fa-youtube small-icon"></i>  Vidéo YouTube</p>
                     </a>
-                    <a href="https://www.ville-sens.fr/concours-video/35/" className="see-more-link">
+                    <a href="https://www.ville-sens.fr/concours-video/35/" target="_blank" rel="noreferrer" className="see-more-link">
                         <p><i className="fas fa-globe small-icon"></i>  Lien du concours (jusqu'au 1er avril)</p>
                     </a>
                 </div>
@@ -41,7 +41,7 @@ class CreationSeeMore extends Component {
                     <p>Ce montage a été réalisé suite à une de leur formation sur le logiciel Adobe Première Pro. Les ressources vidéos étaient fourni, le but était de faire le meilleur montage possible avec ces paysages.</p>
                     <br />    
                     <p>Le projet est accessible sur ce lien :</p>
-                    <a href="https://youtu.be/bwBom0uBYrE" className="see-more-link">
+                    <a href="https://youtu.be/bwBom0uBYrE" target="_blank" rel="noreferrer" className="see-more-link">
                         <p><i className="fab fa-youtube small-icon"></i>  Vidéo YouTube</p>
                     </a>
                 </div>
