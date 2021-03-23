@@ -17,9 +17,9 @@ class Projects extends Component {
         </div>
         <div className="ProjectsContent">
             <p className="justify">Mon dernier projet est un site qui référence les <span className="linkcolor">événements sportifs</span> de France. Il a été réalisé dans le cadre d'un <span className="linkcolor">projet étudiant</span> au semestre d'<span className="linkcolor">Automne 2020</span> à l'UTT. Le site est accessible sur :
-<br /><span className="linkcolor">eve.lairantoine.fr</span></p>
+<br /><a href="https://eve.lairantoine.fr" target="_blank" rel="noreferrer" className="linkcolor">eve.lairantoine.fr</a></p>
             <p className="justify">Depuis <span className="linkcolor">Septembre 2020</span>, je refais le site de mon <span className="linkcolor">club de triathlon</span>. Une première version est terminée et en ligne sur :
-            <br /><span className="linkcolor">sens-triathlon.com</span></p>
+            <br /><a href="https://sens-triathlon.com"  target="_blank" rel="noreferrer" className="linkcolor">sens-triathlon.com</a></p>
             <p className="See-more">Cliquez ici pour <span className="bold">
               <a href="/projects/see-more" className="see-more-link">en savoir plus</a>
               </span> ou passer à la suite !</p>

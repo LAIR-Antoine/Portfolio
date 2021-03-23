@@ -34,7 +34,7 @@ class ExperienceSeeMore extends Component {
         <div className="CarouselText">
             <h3>MyJobGlasses</h3>
             <p>Durant mon semestre de Printemps 2021, dans le cadre d'un partenariat, je me suis inscrit sur la plateforme MyJobGlasses.</p>
-            <p>En utilisant la plateforme, j'ai pu rentrer en contact avec diffrents professionnels afin d'échanger sur leur parcours et leurs expériences professionelles.</p>
+            <p>En utilisant la plateforme, j'ai pu rentrer en contact avec différents professionnels afin d'échanger sur leur parcours et leurs expériences professionelles.</p>
             <p>Ces entretiens m'ont permis de consolider mon projet professionnel et de m'assurer que je partais bien dans une voie qui me plaît et me convient. </p>
             
             

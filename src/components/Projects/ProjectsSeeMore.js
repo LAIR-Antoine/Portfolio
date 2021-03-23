@@ -29,7 +29,7 @@ class ProjectsSeeMore extends Component {
             <p><i className="fas fa-code small-icon"></i>  Réalisé entièrement seul</p>
             <br />
             <p>Le projet est accessible sur ce lien :</p>
-            <a href="https://sens-triathlon.com" className="see-more-link">
+            <a href="https://sens-triathlon.com" target="_blank" rel="noreferrer" className="see-more-link">
                 <p><i className="fas fa-globe small-icon"></i>  Site internet</p>
             </a>
   </div>
@@ -43,13 +43,13 @@ class ProjectsSeeMore extends Component {
             <p><i className="fas fa-database small-icon"></i>  Une base de données en MariaDB</p>
             <br />
             <p>Le projet est accessible sur ces liens :</p>
-            <a href="https://eve.lairantoine.fr" className="see-more-link">
+            <a href="https://eve.lairantoine.fr" target="_blank" rel="noreferrer" className="see-more-link">
                 <p><i className="fas fa-globe small-icon"></i>  Site internet</p>
             </a>
-            <a href="https://apieve.lairantoine.fr/api/events/?valid=1" className="see-more-link">
+            <a href="https://apieve.lairantoine.fr/api/events/?valid=1" target="_blank" rel="noreferrer" className="see-more-link">
                 <p><i className="fas fa-sitemap small-icon"></i>  API contenant des données tests</p>
             </a>
-            <a href="https://drive.google.com/file/d/1ccjRm38Cdpn4t6D4lmc7W_sJOumuTMsA/view?usp=sharing" className="see-more-link">
+            <a href="https://drive.google.com/file/d/1ccjRm38Cdpn4t6D4lmc7W_sJOumuTMsA/view?usp=sharing" target="_blank" rel="noreferrer" className="see-more-link">
                 <p><i className="fas fa-file small-icon"></i>  Rapport du projet</p>
             </a>
             
