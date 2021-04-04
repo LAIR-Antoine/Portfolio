@@ -151,3 +151,12 @@ input{
         margin-left: 75px;
     }
 }
+
+@media screen and (min-width: 1000px) {
+	.overlay nav {
+		margin-left: 200px;
+		font-size: 50px;
+		height: 70%;
+	}
+}
+

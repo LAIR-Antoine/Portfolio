@@ -40,7 +40,7 @@
 }
 .Creation .LineOne {
     margin-top: 0px;
-    margin-left: 25px !important;
+    margin-left: 25px;
     text-align: left !important;
     width: 50%;
     height: 10px;
@@ -145,5 +145,23 @@ i {
         color: #6A6F93;
         font-family: 'Lato', sans-serif;
         font-size: 16px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .Creation p {
+        font-size: 28px;
+        margin-left: 100px;
+    }
+    .Creation h1 {
+        font-size: 60px;
+        margin-left: 100px;
+        /* display: inline-block; */
+    }
+    span {
+        display: inline-block !important;
+    }
+    .LineOne {
+        width: 25% !important;
+        margin-left: 125px;
     }
 }

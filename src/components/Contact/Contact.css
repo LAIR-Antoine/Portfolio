@@ -86,3 +86,27 @@ span {
 /*.form-control {
     color: #6A6F93 !important;
 } */
+@media screen and (min-width: 1000px) {
+    .Contact p {
+        font-size: 28px;
+    }
+    .Contact input {
+        font-size: 28px;
+    }
+    .Contact label {
+        font-size: 28px;
+    }
+    .Contact textarea {
+        font-size: 28px;
+    }
+    .Contact h1 {
+        font-size: 60px;
+        /* display: inline-block; */
+    }
+    span {
+        display: inline-block !important;
+    }
+    .LineOne {
+        width: 25% !important;
+    }
+}
