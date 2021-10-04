@@ -43,6 +43,7 @@ class Navigation extends Component {
                   <li><a href="/creation">Mes <span className="span-menu">créations</span></a></li>
                   {/* <li><a href="/">Mon <span className="span-menu">cv</span></a></li> */}
                   <li><a href="/contact">Me <span className="span-menu">contacter</span></a></li>
+                  <li><a href="/galerie">Mes <span className="span-menu">photos</span></a></li>
                   <li>
                     <a className="icon-links" href="/"><i className="fas fa-home"></i></a>
                     <a className="icon-links" href="mailto:lair.antoine89@orange.fr" target="_blank" rel="noopener noreferrer" alt="Email"><i className='fas fa-envelope'></i></a>
